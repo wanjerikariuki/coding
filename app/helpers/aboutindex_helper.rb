@@ -1,0 +1,2 @@
+module AboutindexHelper
+end

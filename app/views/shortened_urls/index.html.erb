@@ -1,0 +1,18 @@
+<% content_for :content do %>
+  <div class="jumbotron">
+    <div class="container">
+      <h2> enter url</h2>
+      <form action = "shortened_urls/create", method="post">
+        <input type = "text", value="", name="original_url">
+        <input type = "submit" value ="submit">
+      </form>
+    </div>
+  </div>
+
+
+    <% end %>
+
+
+
+
+<%= render template: "layouts/application" %>
